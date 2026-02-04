@@ -55,7 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -d ./public --baseURL https://horse-ma00.github.io/Horse-MA00/
+          hugo --minify
     
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
