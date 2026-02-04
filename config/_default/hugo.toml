@@ -3,7 +3,7 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://horse-ma00.github.io/"
+baseURL = "https://horse-ma00.github.io/Horse-MA00/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true

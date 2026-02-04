@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Czech Republic on Horseman </title>
-    <link>http://localhost:1313/tags/czech-republic/</link>
+    <link>http://localhost:1313/Horse-MA00/tags/czech-republic/</link>
     <description>Recent content in Czech Republic on Horseman </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Horse 0.0</copyright>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/czech-republic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Horse-MA00/tags/czech-republic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Prague</title>
-      <link>http://localhost:1313/travel/prague/</link>
+      <link>http://localhost:1313/Horse-MA00/travel/prague/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/travel/prague/</guid>
+      <guid>http://localhost:1313/Horse-MA00/travel/prague/</guid>
       <description>Discovering the enchanting city of a hundred spires in the heart of Czech Republic.</description>
       
     </item>

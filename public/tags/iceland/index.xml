@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iceland on Horseman </title>
-    <link>http://localhost:1313/tags/iceland/</link>
+    <link>http://localhost:1313/Horse-MA00/tags/iceland/</link>
     <description>Recent content in Iceland on Horseman </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Horse 0.0</copyright>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/iceland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Horse-MA00/tags/iceland/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reykjavik &amp; Iceland</title>
-      <link>http://localhost:1313/travel/gothenburg/</link>
+      <link>http://localhost:1313/Horse-MA00/travel/gothenburg/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/travel/gothenburg/</guid>
+      <guid>http://localhost:1313/Horse-MA00/travel/gothenburg/</guid>
       <description>Exploring the land of fire and ice, Iceland&amp;rsquo;s stunning capital and natural wonders.</description>
       
     </item>
     
     <item>
       <title>Reykjavik &amp; Iceland</title>
-      <link>http://localhost:1313/travel/iceland/</link>
+      <link>http://localhost:1313/Horse-MA00/travel/iceland/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/travel/iceland/</guid>
+      <guid>http://localhost:1313/Horse-MA00/travel/iceland/</guid>
       <description>Exploring the land of fire and ice, Iceland&amp;rsquo;s stunning capital and natural wonders.</description>
       
     </item>
