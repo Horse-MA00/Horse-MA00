@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Winter on Horseman </title>
+    <link>//localhost:1313/tags/winter/</link>
+    <description>Recent content in Winter on Horseman </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Horse 0.0</copyright>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/winter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gothenburg, Sweden</title>
+      <link>//localhost:1313/travel/gothenburg/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/travel/gothenburg/</guid>
+      <description>Scandinavian charm with cozy cafes and beautiful archipelago. A perfect winter escape.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

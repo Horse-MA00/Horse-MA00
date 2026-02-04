@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Italy on Horseman </title>
+    <link>//localhost:1313/tags/italy/</link>
+    <description>Recent content in Italy on Horseman </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Horse 0.0</copyright>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/italy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Milan, Italy</title>
+      <link>//localhost:1313/travel/milan/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/travel/milan/</guid>
+      <description>Fashion capital with stunning architecture. The Duomo and vibrant street life left me speechless.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

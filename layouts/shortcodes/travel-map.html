@@ -1,0 +1,61 @@
+{{/*
+  Travel Map Shortcode
+  Usage: {{< travel-map >}}
+  Displays an interactive map with markers for all traveled locations
+  Edit locations in: /static/data/travel-locations.json
+*/}}
+
+<div id="travel-map" style="width: 100%; height: 500px; border-radius: 8px; margin: 2rem 0; position: relative; z-index: 1;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  // Initialize map - centered on Europe
+  var map = L.map('travel-map').setView([50.0, 10.0], 5);
+  
+  // Add OpenStreetMap tiles (English labels)
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 19
+  }).addTo(map);
+  
+  // Fetch locations from JSON file
+  const baseURL = window.location.hostname === 'localhost' ? '' : '/blowfish_artist';
+  fetch(baseURL + '/data/travel-locations.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to load locations');
+      }
+      return response.json();
+    })
+    .then(locations => {
+      // Add markers for each location
+      locations.forEach(function(location) {
+        var marker = L.marker([location.lat, location.lng]).addTo(map);
+        
+        // Create popup content with image
+        var popupContent = '<div style="text-align: center; min-width: 200px;">' +
+          '<b style="font-size: 1.1em;">' + location.name + '</b><br>' +
+          '<a href="' + location.url + '" style="display: block; margin-top: 10px;">' +
+          '<img src="' + location.image + '" alt="' + location.name + '" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px; margin-top: 8px;">' +
+          '</a>' +
+          '</div>';
+        
+        marker.bindPopup(popupContent, {
+          maxWidth: 250,
+          minWidth: 200
+        });
+      });
+      
+      // Fit map to show all markers
+      if (locations.length > 0) {
+        var bounds = locations.map(loc => [loc.lat, loc.lng]);
+        map.fitBounds(bounds, { padding: [50, 50] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading travel locations:', error);
+      alert('Failed to load travel locations. Please check the console for details.');
+    });
+</script>

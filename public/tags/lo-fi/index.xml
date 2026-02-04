@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lo-Fi on Horseman </title>
+    <link>//localhost:1313/tags/lo-fi/</link>
+    <description>Recent content in Lo-Fi on Horseman </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Horse 0.0</copyright>
+    <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/lo-fi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lo-fi Chill</title>
+      <link>//localhost:1313/music/lofi-chill/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/music/lofi-chill/</guid>
+      <description>Lofi Girl • Chillhop • Jazzhop Café • Study &amp;amp; Relax</description>
+      
+    </item>
+    
+  </channel>
+</rss>

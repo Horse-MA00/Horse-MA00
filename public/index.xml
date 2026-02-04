@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Horseman </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Horseman </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Horse 0.0</copyright>
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Berlin</title>
+      <link>http://localhost:1313/travel/berlin/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/berlin/</guid>
+      <description>Exploring Germany&amp;rsquo;s vibrant capital, where history meets contemporary culture.</description>
+      
+    </item>
+    
+    <item>
+      <title>London</title>
+      <link>http://localhost:1313/travel/london/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/london/</guid>
+      <description>My journey through the vibrant capital of England.</description>
+      
+    </item>
+    
+    <item>
+      <title>Manchester</title>
+      <link>http://localhost:1313/travel/manchester/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/manchester/</guid>
+      <description>Discovering the industrial heart of England, now a hub of culture and innovation.</description>
+      
+    </item>
+    
+    <item>
+      <title>Prague</title>
+      <link>http://localhost:1313/travel/prague/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/prague/</guid>
+      <description>Discovering the enchanting city of a hundred spires in the heart of Czech Republic.</description>
+      
+    </item>
+    
+    <item>
+      <title>Reykjavik &amp; Iceland</title>
+      <link>http://localhost:1313/travel/gothenburg/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/gothenburg/</guid>
+      <description>Exploring the land of fire and ice, Iceland&amp;rsquo;s stunning capital and natural wonders.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vienna</title>
+      <link>http://localhost:1313/travel/vienna/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/vienna/</guid>
+      <description>Experiencing the imperial grandeur and musical heritage of Austria&amp;rsquo;s capital.</description>
+      
+    </item>
+    
+    <item>
+      <title>Reykjavik &amp; Iceland</title>
+      <link>http://localhost:1313/travel/iceland/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/travel/iceland/</guid>
+      <description>Exploring the land of fire and ice, Iceland&amp;rsquo;s stunning capital and natural wonders.</description>
+      
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>http://localhost:1313/posts/post-lite-two/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/post-lite-two/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/post-lite-two/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

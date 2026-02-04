@@ -14,11 +14,16 @@
   name = "Posts"
   pageRef = "posts"
   weight = 10
+[[main]]
+  name = "Travel"
+  pageRef = "travel"
+  weight = 12
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 20
+  name = "Music"
+  pageRef = "music"
+  weight = 15
+
 
 [[main]]
   identifier = "web"
@@ -29,13 +34,13 @@
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/Horse-MA00"
   weight = 50
 
 [[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/burufugu"
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://instagram.com/matthew_ma.1"
   weight = 60
 
 

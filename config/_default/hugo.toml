@@ -3,12 +3,14 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-# baseURL = "https://your_domain.com/"
+baseURL = "https://horse-ma00.github.io/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 20
 summaryLength = 30
+
+[pagination]
+  pagerSize = 20
 
 buildDrafts = false
 buildFuture = false
