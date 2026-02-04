@@ -20,9 +20,16 @@
     maxZoom: 19
   }).addTo(map);
   
+  // Build base path that works both locally and on GitHub Pages subpath deployments
+  const pathSegments = window.location.pathname.split('/').filter(Boolean);
+  const basePath = pathSegments.length > 0 ? '/' + pathSegments[0] : '';
+  const dataURL = `${basePath}/data/travel-locations.json`;
+
+  // Resolve URLs to include the base path when needed (for leading-slash values)
+  const resolvePath = (p) => (p && p.startsWith('/') ? basePath + p : p);
+
   // Fetch locations from JSON file
-  const baseURL = window.location.hostname === 'localhost' ? '' : '/blowfish_artist';
-  fetch(baseURL + '/data/travel-locations.json')
+  fetch(dataURL)
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load locations');
@@ -37,8 +44,8 @@
         // Create popup content with image
         var popupContent = '<div style="text-align: center; min-width: 200px;">' +
           '<b style="font-size: 1.1em;">' + location.name + '</b><br>' +
-          '<a href="' + location.url + '" style="display: block; margin-top: 10px;">' +
-          '<img src="' + location.image + '" alt="' + location.name + '" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px; margin-top: 8px;">' +
+          '<a href="' + resolvePath(location.url) + '" style="display: block; margin-top: 10px;">' +
+          '<img src="' + resolvePath(location.image) + '" alt="' + location.name + '" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px; margin-top: 8px;">' +
           '</a>' +
           '</div>';
         
