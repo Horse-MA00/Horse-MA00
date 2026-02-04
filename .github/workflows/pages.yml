@@ -34,7 +34,7 @@ jobs:
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.6.0
         with: 
-          hugo-version: 0.142.0
+          hugo-version: 0.155.2
           extended: true
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
@@ -57,6 +57,7 @@ jobs:
         run: |
           hugo \
             --gc \
+            --cleanDestinationDir \
             --minify \
             --baseURL "https://horse-ma00.github.io/Horse-MA00/"
     
