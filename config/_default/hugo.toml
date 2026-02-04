@@ -6,6 +6,9 @@ theme = "blowfish"
 baseURL = "https://horse-ma00.github.io/Horse-MA00/"
 defaultContentLanguage = "en"
 
+# Fix for GitHub Pages subpath deployment
+canonifyURLs = true
+
 enableRobotsTXT = true
 summaryLength = 30
 
